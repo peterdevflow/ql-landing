@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "title": "AppName – Simplify Your Workflow",
+    "description": "The modern solution that saves you time and helps you focus on what matters."
+  },
+  "hero": {
+    "headline": "Simplify Your Workflow",
+    "subheadline": "The modern solution that saves you time and helps you focus on what matters most.",
+    "cta": "Get Started",
+    "waitlistCta": "Be the first to know when we launch."
+  },
+  "problem": {
+    "headline": "The Problem",
+    "description": "Managing daily tasks shouldn't feel like a second job. Existing tools are either too complicated, too expensive, or just don't fit how you work."
+  },
+  "benefits": {
+    "headline": "How It Helps",
+    "items": {
+      "fast": {
+        "title": "Lightning Fast",
+        "description": "Get results in seconds, not minutes. Built for speed from the ground up."
+      },
+      "simple": {
+        "title": "Simple by Design",
+        "description": "No learning curve. Start using it right away with an intuitive interface."
+      },
+      "secure": {
+        "title": "Private & Secure",
+        "description": "Your data stays yours. Built with privacy-first principles and GDPR compliance."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Ready to Get Started?",
+    "description": "Join thousands of users who already simplified their workflow.",
+    "waitlistDescription": "Sign up to get early access when we launch.",
+    "button": "Start Free Trial"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "waitlist": {
+    "emailLabel": "Email address",
+    "placeholder": "you@example.com",
+    "button": "Join Waitlist",
+    "submitting": "Joining...",
+    "success": "You're on the list! Help us build the right thing:",
+    "error": "Please enter a valid email address.",
+    "surveyThankYou": "Thank you! We'll be in touch soon.",
+    "surveySkip": "Skip",
+    "surveySubmit": "Send Feedback",
+    "surveySubmitting": "Sending...",
+    "challenge": {
+      "label": "What's your biggest challenge?",
+      "placeholder": "Select one…",
+      "tooComplex": "Current tools are too complex",
+      "tooExpensive": "Existing solutions cost too much",
+      "noGoodFit": "Nothing fits my workflow",
+      "manual": "I do everything manually",
+      "other": "Other",
+      "otherPlaceholder": "Tell us more…"
+    },
+    "budget": {
+      "label": "What would you pay monthly?",
+      "placeholder": "Select a range…",
+      "free": "Free only",
+      "low": "$1 – $5",
+      "mid": "$5 – $15",
+      "high": "$15+",
+      "other": "Other",
+      "otherPlaceholder": "Your expected price…"
+    },
+    "currentSolution": {
+      "label": "How do you solve this today?",
+      "placeholder": "e.g. spreadsheets, pen & paper, another app…"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}

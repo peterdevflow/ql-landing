@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "title": "AppName – Egyszerűsítsd a munkád",
+    "description": "A modern megoldás, ami időt takarít meg és segít arra fókuszálni, ami igazán számít."
+  },
+  "hero": {
+    "headline": "Egyszerűsítsd a Munkafolyamatod",
+    "subheadline": "A modern megoldás, ami időt takarít meg és segít arra fókuszálni, ami igazán számít.",
+    "cta": "Kezdd El",
+    "waitlistCta": "Légy az első, aki értesül az indulásról."
+  },
+  "problem": {
+    "headline": "A Probléma",
+    "description": "A napi feladatok kezelése nem kellene, hogy másodállás legyen. A meglévő eszközök vagy túl bonyolultak, túl drágák, vagy egyszerűen nem illeszkednek a munkastílusodhoz."
+  },
+  "benefits": {
+    "headline": "Hogyan Segít",
+    "items": {
+      "fast": {
+        "title": "Villámsebesség",
+        "description": "Eredmények másodpercek alatt, nem percek. Az alapoktól a sebességre építve."
+      },
+      "simple": {
+        "title": "Egyszerű Tervezés",
+        "description": "Nincs tanulási görbe. Azonnal használhatod az intuitív felületnek köszönhetően."
+      },
+      "secure": {
+        "title": "Privát és Biztonságos",
+        "description": "Az adataid a tieid maradnak. Adatvédelmi elvek és GDPR megfelelés."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Készen Állsz a Kezdésre?",
+    "description": "Csatlakozz azokhoz, akik már egyszerűsítették a munkafolyamatukat.",
+    "waitlistDescription": "Iratkozz fel, hogy elsőként férj hozzá az induláskor.",
+    "button": "Ingyenes Próbaidő"
+  },
+  "footer": {
+    "copyright": "Minden jog fenntartva.",
+    "privacy": "Adatvédelmi Szabályzat"
+  },
+  "waitlist": {
+    "emailLabel": "E-mail cím",
+    "placeholder": "te@pelda.hu",
+    "button": "Feliratkozás",
+    "submitting": "Feliratkozás...",
+    "success": "Feliratkoztál! Segíts, hogy a megfelelő terméket építsük:",
+    "error": "Kérjük, adj meg egy érvényes e-mail címet.",
+    "surveyThankYou": "Köszönjük! Hamarosan jelentkezünk.",
+    "surveySkip": "Kihagyás",
+    "surveySubmit": "Visszajelzés Küldése",
+    "surveySubmitting": "Küldés...",
+    "challenge": {
+      "label": "Mi a legnagyobb kihívásod?",
+      "placeholder": "Válassz egyet…",
+      "tooComplex": "A jelenlegi eszközök túl bonyolultak",
+      "tooExpensive": "A meglévő megoldások túl drágák",
+      "noGoodFit": "Semmi sem illik a munkafolyamatomba",
+      "manual": "Mindent kézzel csinálok",
+      "other": "Egyéb",
+      "otherPlaceholder": "Mesélj többet…"
+    },
+    "budget": {
+      "label": "Mennyit fizetnél havonta?",
+      "placeholder": "Válassz egy sávot…",
+      "free": "Csak ingyen",
+      "low": "500 – 2 000 Ft",
+      "mid": "2 000 – 6 000 Ft",
+      "high": "6 000 Ft+",
+      "other": "Egyéb",
+      "otherPlaceholder": "Az elvárt árad…"
+    },
+    "currentSolution": {
+      "label": "Jelenleg hogyan oldod meg?",
+      "placeholder": "pl. táblázatok, papír és toll, másik app…"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Nyelv"
+  }
+}
