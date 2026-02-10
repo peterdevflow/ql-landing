@@ -1,40 +1,44 @@
 {
   "metadata": {
-    "title": "AppName – Simplify Your Workflow",
-    "description": "The modern solution that saves you time and helps you focus on what matters."
+    "title": "QvikLand – Professional Website in 5 Minutes",
+    "description": "AI-generated landing pages with built-in booking. For yoga studios, trainers, and beauty professionals."
   },
   "hero": {
-    "headline": "Simplify Your Workflow",
-    "subheadline": "The modern solution that saves you time and helps you focus on what matters most.",
-    "cta": "Get Started",
-    "waitlistCta": "Be the first to know when we launch."
+    "headline": "Professional Website in 5 Minutes",
+    "subheadline": "For yoga studios, personal trainers, and beauty pros – AI-generated landing pages with built-in booking.",
+    "cta": "Try it free",
+    "secondaryCta": "See examples",
+    "waitlistCta": "Be the first to try it.",
+    "mockupPlaceholder": "Coming soon: preview"
   },
   "problem": {
-    "headline": "The Problem",
-    "description": "Managing daily tasks shouldn't feel like a second job. Existing tools are either too complicated, too expensive, or just don't fit how you work."
+    "headline": "Why Is Building a Website So Hard?",
+    "description": "Custom websites are expensive and slow. Templates don't fit your niche. The result: no online presence while your clients are searching the web."
   },
   "benefits": {
-    "headline": "How It Helps",
+    "headline": "Why QvikLand?",
+    "subheadline": "Everything you need for a professional online presence",
     "items": {
       "fast": {
-        "title": "Lightning Fast",
-        "description": "Get results in seconds, not minutes. Built for speed from the ground up."
+        "title": "Ready in 5 Minutes",
+        "description": "Write one sentence about your business, and AI fills in the entire website."
       },
       "simple": {
-        "title": "Simple by Design",
-        "description": "No learning curve. Start using it right away with an intuitive interface."
+        "title": "Booking Built In",
+        "description": "Cal.com integration ready to go – your clients book online instantly."
       },
       "secure": {
-        "title": "Private & Secure",
-        "description": "Your data stays yours. Built with privacy-first principles and GDPR compliance."
+        "title": "Mobile-Optimized",
+        "description": "Looks great on phone, tablet, and desktop. GDPR-compliant."
       }
     }
   },
   "cta": {
-    "headline": "Ready to Get Started?",
-    "description": "Join thousands of users who already simplified their workflow.",
+    "headline": "Start Now – Completely Free",
+    "description": "No credit card, no commitment. You'll be done in 5 minutes.",
     "waitlistDescription": "Sign up to get early access when we launch.",
-    "button": "Start Free Trial"
+    "button": "Try it free",
+    "secondaryButton": "See examples"
   },
   "footer": {
     "copyright": "All rights reserved.",
@@ -54,26 +58,26 @@
     "challenge": {
       "label": "What's your biggest challenge?",
       "placeholder": "Select one…",
-      "tooComplex": "Current tools are too complex",
-      "tooExpensive": "Existing solutions cost too much",
-      "noGoodFit": "Nothing fits my workflow",
-      "manual": "I do everything manually",
+      "tooComplex": "Building a website is too complicated",
+      "tooExpensive": "Custom websites cost too much",
+      "noGoodFit": "Templates don't fit my business",
+      "manual": "I have no website, I handle everything manually",
       "other": "Other",
       "otherPlaceholder": "Tell us more…"
     },
     "budget": {
-      "label": "What would you pay monthly?",
+      "label": "What would you pay monthly for a website?",
       "placeholder": "Select a range…",
       "free": "Free only",
-      "low": "$1 – $5",
-      "mid": "$5 – $15",
-      "high": "$15+",
+      "low": "$1 – $10",
+      "mid": "$10 – $30",
+      "high": "$30+",
       "other": "Other",
       "otherPlaceholder": "Your expected price…"
     },
     "currentSolution": {
-      "label": "How do you solve this today?",
-      "placeholder": "e.g. spreadsheets, pen & paper, another app…"
+      "label": "How do you handle your online presence today?",
+      "placeholder": "e.g. Facebook page, friend built it, no website…"
     }
   },
   "languageSwitcher": {

@@ -1,40 +1,44 @@
 {
   "metadata": {
-    "title": "AppName – Egyszerűsítsd a munkád",
-    "description": "A modern megoldás, ami időt takarít meg és segít arra fókuszálni, ami igazán számít."
+    "title": "QvikLand – Profi weboldal 5 perc alatt",
+    "description": "AI-vel generált landing page foglalási rendszerrel. Jóga stúdiónak, edzőnek, fodrásznak."
   },
   "hero": {
-    "headline": "Egyszerűsítsd a Munkafolyamatod",
-    "subheadline": "A modern megoldás, ami időt takarít meg és segít arra fókuszálni, ami igazán számít.",
-    "cta": "Kezdd El",
-    "waitlistCta": "Légy az első, aki értesül az indulásról."
+    "headline": "Profi weboldal 5 perc alatt",
+    "subheadline": "Jóga stúdiónak, edzőnek, fodrásznak – AI-vel generált landing page foglalási rendszerrel.",
+    "cta": "Próbáld ki ingyen",
+    "secondaryCta": "Nézz példákat",
+    "waitlistCta": "Légy az első, aki kipróbálja.",
+    "mockupPlaceholder": "Hamarosan: előnézet"
   },
   "problem": {
-    "headline": "A Probléma",
-    "description": "A napi feladatok kezelése nem kellene, hogy másodállás legyen. A meglévő eszközök vagy túl bonyolultak, túl drágák, vagy egyszerűen nem illeszkednek a munkastílusodhoz."
+    "headline": "Miért nehéz a weboldalépítés?",
+    "description": "Egyedi weboldalt készíttetni drága és lassú. A sablonos megoldások nem illeszkednek a te szakterületedhez. Eredmény: nincs online jelenlét, miközben az ügyfelek a neten keresnek."
   },
   "benefits": {
-    "headline": "Hogyan Segít",
+    "headline": "Miért a QvikLand?",
+    "subheadline": "Minden, amire szükséged van a profi online jelenléthez",
     "items": {
       "fast": {
-        "title": "Villámsebesség",
-        "description": "Eredmények másodpercek alatt, nem percek. Az alapoktól a sebességre építve."
+        "title": "5 perc alatt kész",
+        "description": "Írj egy mondatot a vállalkozásodról, és az AI kitölti a teljes weboldalt."
       },
       "simple": {
-        "title": "Egyszerű Tervezés",
-        "description": "Nincs tanulási görbe. Azonnal használhatod az intuitív felületnek köszönhetően."
+        "title": "Foglalás beépítve",
+        "description": "Cal.com integráció azonnal használható – az ügyfeleid online foglalnak."
       },
       "secure": {
-        "title": "Privát és Biztonságos",
-        "description": "Az adataid a tieid maradnak. Adatvédelmi elvek és GDPR megfelelés."
+        "title": "Mobilon is szép",
+        "description": "Telefonon, tableten és gépen is tökéletesen működik. GDPR-kompatibilis."
       }
     }
   },
   "cta": {
-    "headline": "Készen Állsz a Kezdésre?",
-    "description": "Csatlakozz azokhoz, akik már egyszerűsítették a munkafolyamatukat.",
-    "waitlistDescription": "Iratkozz fel, hogy elsőként férj hozzá az induláskor.",
-    "button": "Ingyenes Próbaidő"
+    "headline": "Kezdd el most – teljesen ingyen",
+    "description": "Nincs hitelkártya, nincs kötelezettség. 5 perc alatt kész vagy.",
+    "waitlistDescription": "Iratkozz fel, hogy elsőként próbálhasd ki az induláskor.",
+    "button": "Próbáld ki ingyen",
+    "secondaryButton": "Nézz példákat"
   },
   "footer": {
     "copyright": "Minden jog fenntartva.",
@@ -46,34 +50,34 @@
     "button": "Feliratkozás",
     "submitting": "Feliratkozás...",
     "success": "Feliratkoztál! Segíts, hogy a megfelelő terméket építsük:",
-    "error": "Kérjük, adj meg egy érvényes e-mail címet.",
+    "error": "Adj meg egy érvényes e-mail címet.",
     "surveyThankYou": "Köszönjük! Hamarosan jelentkezünk.",
     "surveySkip": "Kihagyás",
-    "surveySubmit": "Visszajelzés Küldése",
+    "surveySubmit": "Visszajelzés küldése",
     "surveySubmitting": "Küldés...",
     "challenge": {
       "label": "Mi a legnagyobb kihívásod?",
       "placeholder": "Válassz egyet…",
-      "tooComplex": "A jelenlegi eszközök túl bonyolultak",
-      "tooExpensive": "A meglévő megoldások túl drágák",
-      "noGoodFit": "Semmi sem illik a munkafolyamatomba",
-      "manual": "Mindent kézzel csinálok",
+      "tooComplex": "A weboldalépítés túl bonyolult",
+      "tooExpensive": "Az egyedi weboldal túl drága",
+      "noGoodFit": "A sablonok nem illeszkednek hozzám",
+      "manual": "Nincs weboldalm, kézzel intézek mindent",
       "other": "Egyéb",
       "otherPlaceholder": "Mesélj többet…"
     },
     "budget": {
-      "label": "Mennyit fizetnél havonta?",
+      "label": "Mennyit fizetnél havonta egy weboldalért?",
       "placeholder": "Válassz egy sávot…",
       "free": "Csak ingyen",
-      "low": "500 – 2 000 Ft",
-      "mid": "2 000 – 6 000 Ft",
-      "high": "6 000 Ft+",
+      "low": "500 – 3 000 Ft",
+      "mid": "3 000 – 10 000 Ft",
+      "high": "10 000 Ft+",
       "other": "Egyéb",
       "otherPlaceholder": "Az elvárt árad…"
     },
     "currentSolution": {
-      "label": "Jelenleg hogyan oldod meg?",
-      "placeholder": "pl. táblázatok, papír és toll, másik app…"
+      "label": "Jelenleg hogyan oldod meg az online jelenlétet?",
+      "placeholder": "pl. Facebook oldal, ismerős csinálta, nincs weboldalm…"
     }
   },
   "languageSwitcher": {

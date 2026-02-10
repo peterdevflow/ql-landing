@@ -6,10 +6,10 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t bg-background px-6 py-8">
-      <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 sm:flex-row">
-        <p className="text-sm text-muted-foreground">
-          &copy; {currentYear} AppName. {t("copyright")}
+    <footer className="border-t border-neutral-border bg-white px-6 py-8">
+      <div className="container mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
+        <p className="text-small text-neutral-medium">
+          &copy; {currentYear} QvikLand. {t("copyright")}
         </p>
         <LanguageSwitcher />
       </div>

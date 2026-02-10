@@ -17,7 +17,7 @@ import { joinWaitlist, submitSurvey } from "@/src/app/[locale]/actions";
 const challengeKeys = ["tooComplex", "tooExpensive", "noGoodFit", "manual"] as const;
 const budgetKeys = ["free", "low", "mid", "high"] as const;
 
-export function WaitlistForm() {
+export function WaitlistForm({ variant = "light" }: { variant?: "light" | "dark" }) {
   const t = useTranslations("waitlist");
   const [emailState, emailAction, isEmailPending] = useActionState(
     joinWaitlist,
@@ -31,10 +31,12 @@ export function WaitlistForm() {
   const [challengeValue, setChallengeValue] = useState("");
   const [budgetValue, setBudgetValue] = useState("");
 
+  const isDark = variant === "dark";
+
   // Step 3: final thank you
   if (surveyState?.success || skipped) {
     return (
-      <p className="text-sm font-medium text-primary">
+      <p className={`text-small font-medium ${isDark ? "text-white" : "text-brand-moss"}`}>
         {t("surveyThankYou")}
       </p>
     );
@@ -44,12 +46,16 @@ export function WaitlistForm() {
   if (emailState?.success) {
     return (
       <div className="flex w-full max-w-sm flex-col gap-4 text-left">
-        <p className="text-sm font-medium text-primary">{t("success")}</p>
+        <p className={`text-small font-medium ${isDark ? "text-white" : "text-brand-moss"}`}>
+          {t("success")}
+        </p>
 
         <form action={surveyAction} className="flex flex-col gap-4">
           {/* Challenge question */}
           <div className="flex flex-col gap-1.5">
-            <Label htmlFor="survey-challenge">{t("challenge.label")}</Label>
+            <Label htmlFor="survey-challenge" className={isDark ? "text-white" : undefined}>
+              {t("challenge.label")}
+            </Label>
             <Select
               name="challenge"
               value={challengeValue}
@@ -77,7 +83,7 @@ export function WaitlistForm() {
 
           {/* Current solution question */}
           <div className="flex flex-col gap-1.5">
-            <Label htmlFor="survey-current-solution">
+            <Label htmlFor="survey-current-solution" className={isDark ? "text-white" : undefined}>
               {t("currentSolution.label")}
             </Label>
             <Input
@@ -89,7 +95,9 @@ export function WaitlistForm() {
 
           {/* Budget question */}
           <div className="flex flex-col gap-1.5">
-            <Label htmlFor="survey-budget">{t("budget.label")}</Label>
+            <Label htmlFor="survey-budget" className={isDark ? "text-white" : undefined}>
+              {t("budget.label")}
+            </Label>
             <Select
               name="budget"
               value={budgetValue}
@@ -120,11 +128,17 @@ export function WaitlistForm() {
               type="button"
               variant="ghost"
               size="sm"
+              className={isDark ? "text-white hover:bg-white/10" : undefined}
               onClick={() => setSkipped(true)}
             >
               {t("surveySkip")}
             </Button>
-            <Button type="submit" size="sm" disabled={isSurveyPending}>
+            <Button
+              type="submit"
+              size="sm"
+              disabled={isSurveyPending}
+              className={isDark ? "bg-white text-brand-moss hover:bg-brand-cream" : "bg-brand-terracotta hover:bg-brand-terracotta-dark text-white"}
+            >
               {isSurveyPending ? t("surveySubmitting") : t("surveySubmit")}
             </Button>
           </div>
@@ -148,18 +162,23 @@ export function WaitlistForm() {
         type="email"
         required
         placeholder={t("placeholder")}
-        className="h-10 flex-1"
+        className={`h-10 flex-1 ${isDark ? "bg-white/10 border-white/30 text-white placeholder:text-white/60" : "border-neutral-border focus:ring-brand-moss focus:border-brand-moss"}`}
         aria-describedby={
           emailState?.success === false ? "waitlist-error" : undefined
         }
       />
-      <Button type="submit" size="lg" disabled={isEmailPending}>
+      <Button
+        type="submit"
+        size="lg"
+        disabled={isEmailPending}
+        className={isDark ? "bg-white text-brand-moss hover:bg-brand-cream" : "bg-brand-terracotta hover:bg-brand-terracotta-dark text-white"}
+      >
         {isEmailPending ? t("submitting") : t("button")}
       </Button>
       {emailState?.success === false && (
         <p
           id="waitlist-error"
-          className="text-sm text-destructive sm:col-span-2"
+          className={`text-small sm:col-span-2 ${isDark ? "text-red-300" : "text-destructive"}`}
         >
           {t("error")}
         </p>
